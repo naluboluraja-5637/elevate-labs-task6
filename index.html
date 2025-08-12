@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Profile App — CSS Only</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <header class="card-header">
+      <img src="https://via.placeholder.com/96" alt="Avatar" class="avatar" />
+      <div class="title">
+        <h1>Raj</h1>
+        <p class="subtitle">Junior DevOps — Portfolio</p>
+      </div>
+    </header>
+
+    <!-- Tabs (radio inputs) -->
+    <nav class="tabs">
+      <input type="radio" id="tab-home" name="tabs" checked />
+      <label for="tab-home">Home</label>
+
+      <input type="radio" id="tab-projects" name="tabs" />
+      <label for="tab-projects">Projects</label>
+
+      <input type="radio" id="tab-contact" name="tabs" />
+      <label for="tab-contact">Contact</label>
+    </nav>
+
+    <!-- Tab Contents -->
+    <section class="content">
+      <article class="panel panel-home">
+        <h2>Welcome 👋</h2>
+        <p>This is a small CSS-only profile app. Use the tabs above to view content.</p>
+        <ul class="info">
+          <li><strong>Skill:</strong> Git, Docker, Jenkins</li>
+          <li><strong>Location:</strong> India</li>
+        </ul>
+      </article>
+
+      <article class="panel panel-projects">
+        <h2>Projects</h2>
+        <ol>
+          <li><strong>CI/CD Demo</strong> — Jenkins pipeline + Docker build</li>
+          <li><strong>Static Site</strong> — GitHub Pages portfolio</li>
+          <li><strong>VPC Lab</strong> — Custom VPC + EC2</li>
+        </ol>
+      </article>
+
+      <article class="panel panel-contact">
+        <h2>Contact</h2>
+        <p>If you want to reach out:</p>
+        <table class="contact-table">
+          <tr><td>Email</td><td>your.email@example.com</td></tr>
+          <tr><td>GitHub</td><td><a href="https://github.com/YOUR-USERNAME" target="_blank">github.com/YOUR-USERNAME</a></td></tr>
+        </table>
+        <p class="note">Replace the placeholder email & links with your own before submission.</p>
+      </article>
+    </section>
+
+    <footer class="card-footer">
+      <small>Made with ❤️ — CSS only</small>
+    </footer>
+  </main>
+</body>
+</html>
