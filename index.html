@@ -1,14 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
+    <title>HTML Login Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This site is hosted for free using <strong>GitHub Pages</strong>.</p>
-    <p>Created as part of my DevOps internship task.</p>
+    <div class="main">
+        <h1>GeeksforGeeks</h1>
+        <h3>Enter your login credentials</h3>
+
+        <form action="">
+            <label for="first">
+                Username:
+            </label>
+            <input type="text" id="first" name="first" 
+                placeholder="Enter your Username" required>
+
+            <label for="password">
+                Password:
+            </label>
+            <input type="password" id="password" name="password" 
+                placeholder="Enter your Password" required>
+
+            <div class="wrap">
+                <button type="submit">
+                    Submit
+                </button>
+            </div>
+        </form>
+        
+        <p>Not registered?
+            <a href="#" style="text-decoration: none;">
+                Create an account
+            </a>
+        </p>
+    </div>
 </body>
+
 </html>
