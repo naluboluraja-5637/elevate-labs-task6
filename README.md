@@ -1,38 +1,34 @@
-# CSS-Only Profile Web App
+# HTML & CSS Login Page
 
 ## 📌 Project Overview
-This is a simple **profile web application** built using only **HTML** and **CSS**, without any JavaScript.  
-It features:
-- A clean **profile card** design
-- **Tabbed navigation** (Home / Projects / Contact) using CSS-only radio-button trick
-- Fully responsive layout
-- GitHub Pages deployment for free hosting
-
-This project was created as part of my **DevOps Internship Task 6**.
+This is a simple **Login Page** built using only **HTML and CSS**.  
+It contains:
+- Avatar image
+- Username and password fields
+- Login and Cancel buttons
+- Remember me checkbox
+- Responsive design
 
 ---
 
 ## 📂 Files in this Repository
-- `index.html` → Main HTML file containing the structure of the profile app.
-- `style.css` → CSS styling for layout, colors, responsiveness, and tab functionality.
+- `index.html` → HTML structure for the login form.
+- `style.css` → CSS styling for layout and design.
+- `img_avatar2.png` → Avatar image displayed in the form.
 - `README.md` → Documentation for the project.
-- (Optional) `screenshots/` → Folder containing images of the live site.
 
 ---
 
 ## 🚀 Live Demo
-Click below to view the live version hosted on GitHub Pages:  
+View the live version hosted on GitHub Pages:  
 [**Live Website**](https://YOUR-USERNAME.github.io/YOUR-REPO-NAME)
 
 ---
 
-## 🖼 Preview Screenshots
-*(Add screenshots of your site here after deployment)*
-
-Example:
-![Home Page Screenshot](screenshots/home.png)  
-![Projects Tab Screenshot](screenshots/projects.png)  
-![Contact Tab Screenshot](screenshots/contact.png)
+## 🖼 Preview
+*(Add screenshot after hosting on GitHub Pages)*  
+Example:  
+![Login Page Screenshot](screenshot.png)
 
 ---
 
